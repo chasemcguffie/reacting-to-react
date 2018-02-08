@@ -9,7 +9,7 @@ class App extends Component {
         this.setState({ text: value });
     }
     onButtonClick = () => {
-        this.setState({hasLoaded: true})
+        this.setState({ hasLoaded: true })
         console.log(this.state.hasLoaded)
     }
     componentDidMount = () => {
